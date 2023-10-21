@@ -19,8 +19,8 @@ canvas
 border: 5px solid black;
 border-radius: 13px;
 animation-name: example;
-animation-duration: 0.1ms;
-margin-top: 50px;
+animation-duration: 4s;
+margin-top: 1000px;
 animation-iteration-count: infinite;
 
     
@@ -35,3 +35,4 @@ p
   padding-top:10px;
   font-size:25px;
  }
+ 
