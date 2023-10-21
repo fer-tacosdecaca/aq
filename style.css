@@ -16,10 +16,19 @@ h1
 
 canvas 
 {
+border: 5px solid black;
+border-radius: 13px;
+animation-name: example;
+animation-duration: 0.1ms;
+margin-top: 50px;
+animation-iteration-count: infinite;
 
     
 }
-
+@keyframes example {
+  from{box-shadow: 1px 1px 38px lightslategray}
+  to{box-shadow: 1px 1px 38px lightslategray}
+}
 
 p
 {
